@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(108, 165, 209, 0.427);
+    text-align: center;
+}
+
+.myPhoto {
+    border-radius: 50%;
+    width: 250px;
+    border: 2px solid rgb(0, 174, 255);
+}
+
+.button {
+    padding: 10px;
+    border: 2px solid rgb(0, 200, 255);
+    font-size: 30px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    transition: 0.2s;
+}
+
+.button:hover {
+    box-shadow: 0 0 50px rgb(104, 212, 255);
+    transform: translateY(-10px) scale(1.25);
+    background: linear-gradient(to right, #46d7ff, #3d94ff);
+}
+
+.div {
+    background-color: rgb(146, 146, 146);
+    margin: 0 30px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+
+
