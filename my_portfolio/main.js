@@ -1,5 +1,13 @@
-const button1 = document.getElementById("but_1");
+const name1 = document.getElementById("name");
+const password1 = document.getElementById("password");
+const button = document.getElementById("but");
+const div = document.getElementById("div");
 
-button1.addEventListener("click", function() {
-    window.location.href = "learning/index.html"
+button.addEventListener("click", function() {
+    const name = name1.value.trim();
+    const password2 = password1.value.trim();
+    
+    alert(`привет ${name}, твой пароль "${password2}" уже сохранен в базу данных :)`);
 });
+
+//Tahoma
